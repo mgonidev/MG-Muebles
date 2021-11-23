@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <title> MG - Carrito</title>
+    <link rel="stylesheet" href="./_css/style.css" />
+    <meta name="description"
+        content="MG Muebles - Consulta tu carrito antes de avanzar con tu compra, recorda que hay envios a todo el pais">
+
+    <meta name="keywords" content="Muebles, envios, cocina, oficina, dormitorio, a medida">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__dataContact">
+            <p> <img src="./imagenes/ubi.png" width="20px"> Almirante brown 123456</p>
+            <p><img src="./imagenes/telefono.png" width="20px"> . (011) 1234 - 5678</p>
+        </div>
+
+        <div class="header__nav">
+            <div>
+                <img src="./imagenes/Logotipo.png" alt="Logotipo" width="50px">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><input type="text" name="busqueda" />
+                        <img src="imagenes/lupita.png" alt="lupita" width="18px" style="cursor: pointer;" />
+                    </li>
+                    <li><a href="carrito.html"><b>Carrito</a></b></li>
+                    <li><a href="envios.html"><b>Envio </a></b></li>
+                    <li><a href="perfil.html"> <b>Perfil</a></b></li>
+                    <li><a href="index.html"> <b>inicio</a></b></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Logo-->
+        <div align="center">
+            <h2 class="titlePp">MG Muebles</h2>
+            <a href="index.html"><img src="imagenes/Logotipo.png"></a>
+        </div>
+
+        <!-- barra de navegacion central -->
+        <section class="menu">
+            <div class="menu__nav" align="center">
+                <ul class="menu__nav__menupp">
+                    <li><a href="#">Producto</a>
+                        <ul class="menu__nav__menupp--submenu">
+                            <li><a href="./productos.html">Categorias</a></li>
+                            <li><a href="./diseñaeltuyo.html">Diseña el tuyo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Usuario</a>
+                        <ul class="menu__nav__menupp--submenu">
+                            <li><a href="./perfil.html">Mi perfil</a></li>
+                            <li><a href="./perfil.html">Registrar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Informacion Util</a>
+                        <ul class="menu__nav__menupp--submenu">
+                            <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
+                            <li><a href="./envios.html">Envios</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./carrito.html">Carrito</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="#formasPago">Formas de Pago</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div align="center">
+            <h1 class="titlePp">Tu carrito</h1>
+        </div>
+
+
+        <!--Cart-->
+        <section>
+            <div class="cart" align="center">
+                <div class="cart__item1">
+                    <h2 class="cart__item__title">
+                        Nido de amor
+                    </h2>
+                    <hr class="cart__item--dec">
+                    <form action="envio.php" method="post" enctype="text/plain">
+
+                        <label for="Mail"> Cantidad: </label>
+                        <input type="number" name="number" placeholder="" class="cart__item--box">
+                        <br><br>
+
+                </div>
+
+                <div class="cart__item2">
+                    <h2 class="cart__item__title">
+                        Cuchitrill
+                    </h2>
+                    <hr class="cart__item--dec">
+                    <label for="Mail"> Cantidad: </label>
+                    <input type="number" name="number" placeholder="" class="cart__item--box">
+                    <br><br>
+                </div>
+
+                <div class="cart__item3">
+                    <h2 class="cart__item__title">
+                        Gris Claro
+                    </h2>
+                    <hr class="cart__item--dec">
+                    <label for="Mail"> Cantidad: </label>
+                    <input type="number" name="number" placeholder="" class="cart__item--box">
+                    <br><br>
+                </div>
+                <div class="cart__checkout">
+                    <h2 class="cart__item__check">Forma de pago:</h2>
+                    <p class="cart__item__check--radio"><input type="radio" name="pago" value="Tarjeta">
+                        Tarjeta</p>
+                    <p class="cart__item__check--radio"><input type="radio" name="pago" value="MP">
+                        Mercado Pago</p>
+                    <p class="cart__item__check--radio"><input type="radio" name="pago" value="tb">
+                        Transferencia</p>
+                    <hr class="cart__check--dec">
+
+                    <div clas="cart__total">
+                        <h2 class="cart__item__check">Total:</h2>
+                        <input type="number" name="number" placeholder="" class="cart__item--total">
+
+                        <input type="submit" value="Enviar" class="cart__total__btn"> <input class="cart__total__btn"
+                            type="reset" value="Limpiar">
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <footer class="footer" id="formasPago">
+        <section class="footer__info">
+            <div>
+                <h4>Formas de pago</h4>
+                <img src="imagenes/mercadopago.png" width="150px">
+            </div>
+
+            <div>
+                <a href="contacto.html"> <b>Contacto</b>
+                </a>
+            </div>
+
+            <div>
+                <h4>Envios</h4>
+                <p>Hacemos envios a todo el pais</p>
+            </div>
+        </section>
+
+        <div class="footer__data">
+            <h2>Seguinos:</h2>
+            <div>
+                <a href="https://www.facebook.com/"> <img src="imagenes/Face.png" alt="Facebook" width="43px" /></a>
+                <a href="https://www.instagram.com/"> <img src="imagenes/inst.png" alt="Instagram" width="43px" /></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

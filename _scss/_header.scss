@@ -1,0 +1,43 @@
+/*Header*/
+:root {
+  $primary: #3f4b44;
+}
+
+.header {
+  background: #cbb9b7;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  top: 0px;
+  z-index: 3;
+  div {
+    nav {
+      li {
+        list-style: none;
+        display: inline-block;
+        margin: 15px 5px 2px;
+      }
+    }
+  }
+}
+
+.header__dataContact {
+  background: #3f4b44;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  p {
+    margin-top: 10px;
+  }
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+  }
+}
