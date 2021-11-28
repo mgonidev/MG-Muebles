@@ -62,3 +62,52 @@ a {
 .bordesRedondeados {
   border-radius: 20px;
 }
+
+.contactTitle {
+  padding-top: 1px;
+  height: 20vh;
+}
+
+.contactBox {
+  font-size: 1em;
+  height: 860px;
+  background: url(./imagenes/tallado.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactTxt {
+  background: white;
+  width: 30vw;
+  border-radius: 1em;
+  border: 5px solid $clr-oscuro;
+}
+
+.contactTxt h2,
+.contactTxt h4 {
+  width: 100%;
+  text-decoration: underline;
+  background: $clr-oscuro;
+  color: $clr-clrtext;
+}
+
+.contactTxt p {
+  background: $clr-oscuro;
+  color: $clr-clrtext;
+}
+
+.contactForm li {
+  list-style: none;
+  display: inline;
+}
+
+.contactForm input {
+  font-size: 15px;
+  margin: 5px;
+}
+
+.contactForm p {
+  font-size: 20px;
+}

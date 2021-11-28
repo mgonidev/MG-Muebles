@@ -1,0 +1,83 @@
+/*Media query*/
+/*Media query index*/
+@media only screen and (max-width: 768px) {
+  .a9 a,
+  .a5 a,
+  .a1 a {
+    font-size: 40px;
+  }
+
+  .contactTxt {
+    width: 512px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .a9 a,
+  .a5 a,
+  .a1 a {
+    font-size: 24px;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Categorias Categorias"
+      "a1 a2"
+      "a4 a5"
+      "a8 a9"
+      "mas mas";
+  }
+
+  .a3,
+  .a6,
+  .a7 {
+    display: none;
+  }
+
+  .footer__data img {
+    width: 16px;
+  }
+  .footer__info img {
+    width: 80px;
+  }
+
+  .footer__info div a {
+    font-size: 16px;
+  }
+  .footer__data h2,
+  .footer__info h4,
+  .footer__info p {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .a9 a,
+  .a5 a,
+  .a1 a {
+    font-size: 16px !important;
+  }
+  .mas a,
+  .Categorias p {
+    font-size: 28px !important;
+  }
+
+  .menu {
+    font-size: 10px !important;
+  }
+
+  /* media query contact*/
+  .contactTxt {
+    width: 290px;
+  }
+
+  .contactTitle h2 {
+    font-size: 1rem;
+  }
+  .contactTitle h1 {
+    font-size: 2rem;
+  }
+}
