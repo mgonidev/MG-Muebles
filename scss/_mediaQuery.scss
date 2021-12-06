@@ -4,14 +4,20 @@
   .a9 a,
   .a5 a,
   .a1 a {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .contactTxt {
     width: 512px;
   }
+
+  /*contacto*/
+  .contactBox {
+    margin-top: 80px;
+  }
 }
 
+/*425*/
 @media only screen and (max-width: 425px) {
   .a9 a,
   .a5 a,
@@ -38,21 +44,66 @@
   }
 
   .footer__data img {
-    width: 16px;
+    width: 2rem;
   }
   .footer__info img {
-    width: 80px;
+    width: 7rem;
   }
 
   .footer__info div a {
-    font-size: 16px;
+    display: none;
+    visibility: hidden;
   }
-  .footer__data h2,
-  .footer__info h4,
-  .footer__info p {
-    font-size: 8px;
+
+  .titlePp {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  .carousl__display {
+    display: none;
+    visibility: hidden;
+  }
+  .profilePP {
+    .profile__foto {
+      width: 360px;
+      img {
+        width: 300px;
+      }
+    }
+    .profile__infoArea {
+      width: 360px;
+    }
+    .profile__infoArea2 {
+      width: 360px;
+    }
+  }
+
+  /*cart*/
+  .cart__checkout {
+    width: 185px;
+  }
+
+  .cart__item--total {
+    display: block;
+    margin: 0px;
+  }
+
+  .header__nav {
+    nav {
+      ul {
+        li {
+          input {
+            width: 88px;
+          }
+        }
+      }
+    }
   }
 }
+
+/*320*/
 
 @media only screen and (max-width: 320px) {
   .a9 a,
@@ -79,5 +130,21 @@
   }
   .contactTitle h1 {
     font-size: 2rem;
+  }
+  .header__nav {
+    nav {
+      ul {
+        li {
+          img {
+            display: none;
+            visibility: hidden;
+          }
+          input {
+            display: none;
+            visibility: hidden;
+          }
+        }
+      }
+    }
   }
 }

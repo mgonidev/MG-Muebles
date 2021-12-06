@@ -41,10 +41,10 @@
   align-items: center;
   height: 80%; }
   .footer__info div a {
-    font-size: 1.5vw; }
+    font-size: 1.5em; }
   .footer__info div h4 {
     margin: 5px;
-    font-size: 1.5vw; }
+    font-size: 1.4em; }
 
 .footer__data {
   background-image: linear-gradient(to bottom, #cbb9b7, #3f4b44, #3f4b44, #3f4b44, #3f4b44);
@@ -57,7 +57,7 @@
   .footer__data h2 {
     margin-top: 30px;
     color: #cbb9b7;
-    font-size: 1.2vw; }
+    font-size: 1.2em; }
   .footer__data div a {
     margin: 10px 15px 20px; }
 
@@ -337,6 +337,14 @@ h5 {
   background: #3f4b44;
   width: 100%;
   border: 3px solid #cbb9b7; }
+  .categorias p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    color: #f7f7f9;
+    margin: 0px;
+    height: 100%; }
 
 .a9 a,
 .a5 a,
@@ -348,15 +356,6 @@ h5 {
   justify-content: center;
   align-items: center;
   height: 320px; }
-
-.categorias p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color: #f7f7f9;
-  margin: 0px;
-  height: 100%; }
 
 .mas a {
   font-size: 30px;
@@ -520,7 +519,7 @@ a {
 .contactBox {
   font-size: 1em;
   height: 860px;
-  background: url(./imagenes/tallado.jpg) no-repeat center/cover;
+  background: url(../imagenes/tallado.jpg) no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -560,10 +559,14 @@ a {
   .a9 a,
   .a5 a,
   .a1 a {
-    font-size: 40px; }
+    font-size: 50px; }
   .contactTxt {
-    width: 512px; } }
+    width: 512px; }
+  /*contacto*/
+  .contactBox {
+    margin-top: 80px; } }
 
+/*425*/
 @media only screen and (max-width: 425px) {
   .a9 a,
   .a5 a,
@@ -580,16 +583,37 @@ a {
   .a7 {
     display: none; }
   .footer__data img {
-    width: 16px; }
+    width: 2rem; }
   .footer__info img {
-    width: 80px; }
+    width: 7rem; }
   .footer__info div a {
-    font-size: 16px; }
-  .footer__data h2,
-  .footer__info h4,
-  .footer__info p {
-    font-size: 8px; } }
+    display: none;
+    visibility: hidden; }
+  .titlePp {
+    font-size: 38px; }
+  h2 {
+    font-size: 23px; }
+  .carousl__display {
+    display: none;
+    visibility: hidden; }
+  .profilePP .profile__foto {
+    width: 360px; }
+    .profilePP .profile__foto img {
+      width: 300px; }
+  .profilePP .profile__infoArea {
+    width: 360px; }
+  .profilePP .profile__infoArea2 {
+    width: 360px; }
+  /*cart*/
+  .cart__checkout {
+    width: 185px; }
+  .cart__item--total {
+    display: block;
+    margin: 0px; }
+  .header__nav nav ul li input {
+    width: 88px; } }
 
+/*320*/
 @media only screen and (max-width: 320px) {
   .a9 a,
   .a5 a,
@@ -606,4 +630,10 @@ a {
   .contactTitle h2 {
     font-size: 1rem; }
   .contactTitle h1 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .header__nav nav ul li img {
+    display: none;
+    visibility: hidden; }
+  .header__nav nav ul li input {
+    display: none;
+    visibility: hidden; } }
