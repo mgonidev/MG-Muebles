@@ -636,4 +636,12 @@ a {
     visibility: hidden; }
   .header__nav nav ul li input {
     display: none;
-    visibility: hidden; } }
+    visibility: hidden; }
+  .profilePP .profile__foto {
+    width: 250px; }
+    .profilePP .profile__foto img {
+      width: 200px; }
+  .profilePP .profile__infoArea {
+    width: 250px; }
+  .profilePP .profile__infoArea2 {
+    width: 250px; } }

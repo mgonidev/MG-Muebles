@@ -147,4 +147,19 @@
       }
     }
   }
+
+  .profilePP {
+    .profile__foto {
+      width: 250px;
+      img {
+        width: 200px;
+      }
+    }
+    .profile__infoArea {
+      width: 250px;
+    }
+    .profile__infoArea2 {
+      width: 250px;
+    }
+  }
 }
