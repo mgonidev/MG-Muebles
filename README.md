@@ -3,18 +3,18 @@
 </p>
 
 ## Table de contenido
-1. [General Info]
-2. [Technologies]
-3. [Lenguages]
-4. [Installation]
+1. [Info General]
+2. [Tecnologia]
+3. [Lenguajes]
+4. [Instalacion]
 
 
-### General Info
+### Info General
 ***
 MG Muebles es un proyecto de e commerce, mas persilanizado para mejorar la experiencia de los cliente.
 
 
-## Technologies
+## Tecnologia
 ***
 * [Visual Studio Code](https://code.visualstudio.com/): Version 1.62 
 * [Node.js](https://nodejs.org/es/): Version 16.13.0
@@ -22,13 +22,13 @@ MG Muebles es un proyecto de e commerce, mas persilanizado para mejorar la exper
 * [Github](https://github.com/)
 * [Bootstrap] (https://getbootstrap.com/): Version 5.1.3
 
-## Lenguages
+## Lenguajes
 ***
 * [HTML]
 * [SCSS]
 * [CSS]
 
-## Installation
+## Instalacion
 ***
 Se puede ver el repositorio en el siguiente link, hosteado en Github:
 
