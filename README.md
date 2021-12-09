@@ -30,4 +30,7 @@ Se puede ver el repositorio en el siguiente link, hosteado en Github:
 
 https://github.com/mgonidev/MG-Muebles.git
 
+## Contacto
+
+- Linkedin - [https://www.linkedin.com/in/matias-hernan-go%C3%B1i-8aa547156](https://www.linkedin.com/in/matias-hernan-go%C3%B1i-8aa547156)
 
