@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="imagenes/Logotipo.png" width="320" alt="Nest Logo" /></a>
+</p>
+
 ## Table de contenido
 1. [General Info]
 2. [Technologies]
